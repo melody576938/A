@@ -1,0 +1,9 @@
+x=0;for(i in 1:9){for(j in 1:9){x=i*j;cat(x,' ')};cat('\n')}
+var=function(data){
+  a=0
+  for(i in 1:length(data)){
+    a=((a-mean(a))**2)/n-1
+  }
+  return(a)
+}
+var(1:15)
